@@ -1,0 +1,29 @@
+<div class="post-list">
+
+	<div id="push">
+
+		{{#get "posts" limit="1" include="tags,authors" filter="tag:hash-pinned"}}
+
+   			{{#foreach posts visibility="all"}}
+
+      			{{> "post-card"}}
+				  
+   			{{/foreach}}
+
+		{{/get}}
+
+		{{#get "posts" include="tags,authors" filter="tag:-hash-pinned"}}
+
+   			{{#foreach posts visibility="all"}}
+
+      			{{> "post-card"}}
+				  
+   			{{/foreach}}
+
+		{{/get}}
+
+	</div>
+
+</div>
+
+{{pagination}}
