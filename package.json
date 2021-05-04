@@ -1,8 +1,8 @@
 {
   "name": "bleak",
   "description": "Ghost Theme",
-  "demo": "https://bleak.peteramende.de",
-  "version": "1.6.0",
+  "demo": "https://blog.milanmenezes.me",
+  "version": "10.6.0",
   "engines": {
     "ghost": ">=3.0.0",
     "ghost-api": "v3"
@@ -13,9 +13,9 @@
     "mobile": "src/screenshot-mobile.jpg"
   },
   "author": {
-    "name": "Peter Amende",
-    "email": "xoxo@peteramende.de",
-    "url": "https://peteramende.de"
+    "name": "Milan Menezes",
+    "email": "milanmenezes@gmail.com",
+    "url": "https://milanmenezes.me"
   },
   "gpm": {
     "type": "theme",
@@ -30,7 +30,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zutrinken/bleak.git"
+    "url": "https://github.com/milanmenezes/bleak.git"
   },
   "devDependencies": {
     "autoprefixer-core": "^6.0.1",
