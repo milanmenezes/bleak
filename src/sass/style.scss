@@ -13,6 +13,8 @@ $breakpoint-desktop:	70em;
 :root {
   --color-primary: #36D995;
   --color-primary-active: #2DB77E;
+  --gh-font-heading: 'Merriweather Sans', sans-serif;
+  --gh-font-body: 'Merriweather Sans', sans-serif;
 }
 
 $color-primary-default:		var(--color-primary); /* Light */
